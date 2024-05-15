@@ -1,12 +1,12 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-// import Layout from './layout';
+import Layout from './layout';
 // import Header from './components/header';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Loader from './components/loader';
-const Layout = React.lazy(() => import('./layout'));
+// const Layout = React.lazy(() => import('./layout'));
 
 
 
