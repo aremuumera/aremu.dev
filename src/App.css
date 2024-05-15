@@ -450,6 +450,53 @@ h6{
 /* ================================== contact end========================================================================================================== */
 
 
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure loader is above other elements */
+  transition: transform 0.5s ease, top 0.5s ease; /* Add top transition */
+  transform: translateY(100%);
+}
+
+.loader-container.show {
+  transform: translateY(0%);
+  top: 0; /* Adjusted top position when loader is shown */
+}
+
+.loader-container.hide {
+  transform: translateY(-100%);
+  top: -50%; /* Adjusted top position when loader is hidden */
+}
+
+/* .loader-container.hide {
+  animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes slide-out-top {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+} */
+
+
+.loader-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
 
 
 
