@@ -4,7 +4,11 @@ import { useState } from 'react'
 import { NavLink } from "react-router-dom"; 
 import { GoDownload } from "react-icons/go";
 import { Link as LinkScroll } from 'react-scroll';
-
+import { AiOutlineMessage } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
 
 const Header = () => {
 
@@ -57,15 +61,46 @@ const Header = () => {
                                 <LinkScroll onClick={handleLinkClick}  to='contact' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem`}> Contact </LinkScroll>
                             </li>
                     </nav>
-                    <div className="hidden">
-                        <h2>You can reach me at </h2>
+                    <div className="min-[1024px]:hidden   socialHeader">
+                            <h2>You can reach me at </h2>
+                            <div className="contact-social-handle pt-[20px]">
+                            
+                            <h2 className='text-HeaderTextColor sm:text-[1.5rem] text-[1.1rem] text-center   '>You can reach out with me via:</h2>
+                            <ul className='flex justify-center items-center gap-[15px] pt-[30px]'>
+                                <li className="imna"data-delay=".7s">
+                                    <a href="https://github.com/aremuumera">
+                                    <FaGithub className='text-textColor text-[2rem]'/>
+                                    </a>
+                                </li>
+                                <li className="imna" data-delay=".7.8s">
+                                    <a href="https://www.linkedin.com/in/farouk-akinsanya-993563236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
+                                        <FaLinkedinIn  className='text-textColor text-[2rem]'/>
+                                    </a>
+                                </li>
+                                <li className="imna" data-delay=".8.8s">
+                                    <a href="https://twitter.com/aremu_umera">
+                                        <FaXTwitter className='text-textColor text-[2rem]' />
+                                    </a>
+                                </li>
+                                <li className="imna" data-delay=".9.8s">
+                                    <a href="mailto:aremu.script@gmail.com" target="_blank">
+                                        <AiOutlineMessage className='text-textColor text-[2rem]' />
+                                    </a>
+                                </li>
+                                <li className="imna" data-delay=".9.8s">
+                                    <a href="https://wa.me/08050255377" target="_blank">
+                                    <FaWhatsapp  className='text-textColor text-[2rem]' />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="hidden ">
+                    <div className="min-[1024px]:hidden pt-[40px] resumeHeader">
                         <a className="button  flex items-center justify-center "> 
-                            <div className="flex gap">
+                            <a href='#' className="flex gap">
                                 <span>Resume </span>
                                 <span><GoDownload className='inline' /> </span>
-                            </div>
+                            </a>
                         </a>
                     </div>
                 </div>

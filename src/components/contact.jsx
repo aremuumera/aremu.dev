@@ -6,7 +6,7 @@ import { AiOutlineMessage } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
-
+import { FaWhatsapp } from "react-icons/fa6";
 
 const Contact = () => {
 
@@ -59,7 +59,7 @@ const Contact = () => {
                 </p>
                 <div className='pt-[20px] w-full text-BgColor font-[600] sm:text-[4rem] text-[.9rem] text-center'>
                    <h1 ref={el} className=''/>
-                   <p className="mina text-textColor pt-[20px] max-w-[1000px] w-full mx-[auto] text-[1.1rem] text-center " > Whether you have inquiries, project concepts, or simply want to drop a friendly "Hello," don't hesitate to reach out. 
+                   <p className="mina text-textColor pt-[20px] max-w-[1000px] w-full mx-[auto] sm:text-[1.1rem] text-[.9rem] text-center " > Whether you have inquiries, project concepts, or simply want to drop a friendly "Hello," don't hesitate to reach out. 
                     <br/>I'm thrilled to engage in a conversation and explore the possibilities of transforming your web development ideas into 
                     something extraordinary.
                 </p>
@@ -71,9 +71,9 @@ const Contact = () => {
             </div>
 
 
-            <div className="contact-social-handle pt-[60px]">
+                     <div className="contact-social-handle pt-[60px]">
                         
-                        <h2 className='text-HeaderTextColor text-[1.5rem] text-center   '>You can reach out with me via:</h2>
+                        <h2 className='text-HeaderTextColor sm:text-[1.5rem] text-[1.1rem] text-center   '>You can reach out with me via:</h2>
                         <ul className='flex justify-center items-center gap-[15px] pt-[30px]'>
                             <li className="imna"data-delay=".7s">
                                 <a href="https://github.com/aremuumera">
@@ -95,6 +95,11 @@ const Contact = () => {
                                     <AiOutlineMessage className='text-textColor text-[2rem]' />
                                 </a>
                             </li>
+                            <li className="imna" data-delay=".9.8s">
+                                <a href="https://wa.me/08050255377" target="_blank">
+                                  <FaWhatsapp  className='text-textColor text-[2rem]' />
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -112,7 +117,7 @@ const Contact = () => {
         </div>      
 
         <div className='bg-mainBlack py-[15px] w-full text-center     ' >
-                <p className=' text-textColor hover:text-BgColor '>Built by Farouk Akinsanya |  © 2024 aremu_umera</p>
+                <p className='text-[.75rem] text-textColor hover:text-BgColor '>Built by Farouk Akinsanya |  © 2024 aremu_umera</p>
         </div>
     </div>
   )

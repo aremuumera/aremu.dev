@@ -1,6 +1,7 @@
 import { GoDownload } from "react-icons/go"
 import { AiOutlineDingtalk } from "react-icons/ai"
-
+import { Link } from "react-router-dom"
+import { Link as LinkScroll } from 'react-scroll';
 
 
 const Home = () => {
@@ -19,9 +20,9 @@ const Home = () => {
                 <button className="button HomeButton fade-in-bottom-d flex items-center gap-[10px]">
                     Resume <span> <GoDownload /> </span>
                 </button>
-                <button className="button HomeButton fade-in-bottom-d  bg-BgColor flex items-center gap-[10px]">
+                <LinkScroll to='contact' className="button HomeButton fade-in-bottom-d  bg-BgColor flex items-center gap-[10px]">
                     Let's Talk <span> <AiOutlineDingtalk /> </span>
-                </button>
+                </LinkScroll>
             </div>
         </div>
       
