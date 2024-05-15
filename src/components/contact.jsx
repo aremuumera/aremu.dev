@@ -60,7 +60,7 @@ const Contact = () => {
                 <div className='pt-[20px] w-full text-BgColor font-[600] sm:text-[4rem] text-[.9rem] text-center'>
                    <h1 ref={el} className=''/>
                    <p className="mina text-textColor pt-[20px] max-w-[1000px] w-full mx-[auto] text-[1.1rem] text-center " > Whether you have inquiries, project concepts, or simply want to drop a friendly "Hello," don't hesitate to reach out. 
-                    I'm thrilled to engage in a conversation and explore the possibilities of transforming your web development ideas into 
+                    <br/>I'm thrilled to engage in a conversation and explore the possibilities of transforming your web development ideas into 
                     something extraordinary.
                 </p>
                 </div>

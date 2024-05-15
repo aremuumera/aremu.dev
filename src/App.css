@@ -450,6 +450,7 @@ h6{
 /* ================================== contact end========================================================================================================== */
 
 
+/* ========================== loader start ============================================ */
 .loader-container {
   position: fixed;
   top: 0;
@@ -462,35 +463,56 @@ h6{
   justify-content: center;
   align-items: center;
   z-index: 9999; /* Ensure loader is above other elements */
-  transition: transform 0.5s ease, top 0.5s ease; /* Add top transition */
-  transform: translateY(100%);
+  /* transition: transform 0.5s ease, top 0.5s ease; /* Add top transition 
+  transform: translateY(100%); */
 }
 
-.loader-container.show {
+/* .loader-container.show {
   transform: translateY(0%);
-  top: 0; /* Adjusted top position when loader is shown */
+  top: 0; /* Adjusted top position when loader is shown 
 }
 
 .loader-container.hide {
   transform: translateY(-100%);
-  top: -50%; /* Adjusted top position when loader is hidden */
+  top: -50%; /* Adjusted top position when loader is hidden 
+} */
+
+.loader-container.fade-in-fwd {
+	-webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-/* .loader-container.hide {
-  animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+.loader-container.slide-out-top {
+	-webkit-animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: slide-out-top 2s cubic-bezier(0.550, 0.085, 0.680, 0.530 ) 1s both;
 }
 
 @keyframes slide-out-top {
   0% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
   100% {
-    transform: translateY(-100%);
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
     opacity: 0;
   }
-} */
-
+}
 
 .loader-text {
   font-size: 24px;
@@ -498,9 +520,30 @@ h6{
   text-align: center;
 }
 
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
 
 
-
+/* ========================== loader start ============================================ */
 
 
 
