@@ -1,7 +1,7 @@
 
 
 import { useState } from 'react'
-import { NavLink } from "react-router-dom"; 
+import { Link } from "react-router-dom"; 
 import { GoDownload } from "react-icons/go";
 import { Link as LinkScroll } from 'react-scroll';
 import { AiOutlineMessage } from "react-icons/ai";
@@ -98,17 +98,17 @@ const Header = () => {
                     </div>
                     <div className="min-[1024px]:hidden flex items-center justify-center  text-center pt-[40px] resumeHeader  fade-in-bottom-socialResume">
                         <a className="button rounded-[10px]  flex items-center justify-center "> 
-                            <a href='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="flex gap">
+                            <Link to='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="flex gap">
                                 <span>Resume </span>
                                 <span><GoDownload className='inline' /> </span>
-                            </a>
+                            </Link>
                         </a>
                     </div>
                 </div>
                 <div className="lg:block hidden fade-in-bottom-socialResume ">
-                    <a  href='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="button flex items-center gap-[10px] sm:text-[1rem]">
+                    <Link  to='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="button flex items-center gap-[10px] sm:text-[1rem]">
                     Resume <span> <GoDownload /> </span>
-                    </a>
+                    </Link>
                 </div>
                 <div className=" lg:hidden  menu ">
                     <input onClick={Checked}  id="checkbox2" type="checkbox"  className='check-icon hidden'/>
