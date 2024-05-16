@@ -70,7 +70,7 @@ const Projects = () => {
 
                 {/* ========================================= project two ================================================= */}
                
-                    <div  className="projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                    <div  className="projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747869/eccn_iccvoh.png' alt="portfolio image" />
                         </div>
@@ -95,7 +95,7 @@ const Projects = () => {
                 
                 
                 {/* ================================================= project three ============================================ */}
-                    <div  className="projectContainer flex items-center justify-end pt-[40px] lg:pt-[180px]  xl:pt-[150px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                    <div  className="projectContainer flex items-center justify-end pt-[40px] lg:pt-[180px]  xl:pt-[150px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="110" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px]  ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715748267/myportfolio_t2knek.png' alt="portfolio image" />
                         </div>
@@ -128,7 +128,7 @@ const Projects = () => {
                         </div>
 
                 {/* ================================= project four   =================================================================== */}
-                     <div  className=" projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px] w-full"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                     <div  className=" projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px] w-full"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715720626/mentor-1_uohzxh.png' alt="portfolio image" />
                         </div>
@@ -148,7 +148,7 @@ const Projects = () => {
                     </div>
             
                 {/* =========================== project five =============================================================== */}
-                    <div  className="projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"   data-aos-once="false"      >
+                    <div  className="projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="180" data-aos-easing="ease-in-out " data-aos-offset="320"   data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747445/easy-bank_-snip_utyliv.png' alt="portfolio image" />
                         </div>
