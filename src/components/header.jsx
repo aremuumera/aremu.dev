@@ -62,12 +62,11 @@ const Header = () => {
                             </li>
                     </nav>
                     <div className="min-[1024px]:hidden   socialHeader">
-                            <h2>You can reach me at </h2>
-                            <div className="contact-social-handle pt-[20px]">
+                            <div className="contact-social-handle pt-[10px]">
                             
                             <h2 className='text-HeaderTextColor sm:text-[1.5rem] text-[1.1rem] text-center   '>You can reach out with me via:</h2>
                             <ul className='flex justify-center items-center gap-[15px] pt-[30px]'>
-                                <li className="imna"data-delay=".7s">
+                                <li className="imna">
                                     <a href="https://github.com/aremuumera">
                                     <FaGithub className='text-textColor text-[2rem]'/>
                                     </a>
