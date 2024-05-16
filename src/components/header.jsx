@@ -95,8 +95,8 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="min-[1024px]:hidden pt-[40px] resumeHeader">
-                        <a className="button  flex items-center justify-center "> 
+                    <div className="min-[1024px]:hidden flex items-center justify-center  text-center pt-[40px] resumeHeader">
+                        <a className="button rounded-[10px]  flex items-center justify-center "> 
                             <a href='#' className="flex gap">
                                 <span>Resume </span>
                                 <span><GoDownload className='inline' /> </span>
