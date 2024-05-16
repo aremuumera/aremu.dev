@@ -1,18 +1,12 @@
 
-import { motion, useTransform, useScroll } from "framer-motion";
-import { Link } from "react-router-dom";
+import { motion,  } from "framer-motion";
+// import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
-import { useRef } from "react";
+
 
 
 const Projects = () => {
-const ref = useRef(null);
-const { scrollYProgress } = useScroll({
-    target:ref,
-    offset:['0, 1', '1.33, 1']
-})
- const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.9, 1] )
 
     const sliderVariants = {
         initial: {
@@ -115,8 +109,8 @@ const { scrollYProgress } = useScroll({
                                 <span>AOS.JS</span>
                             </div>
                             <div className="flex projectContLink items-center pt-[10px] gap-[15px]">
-                                <a href="https://github.com/aremuumera/aremu-portfolio"><FaGithub   className='text-[1.5rem] ' /> </a>
-                                <a  href="https://aremu-portfolio.vercel.app/" ><FaLink  className='text-[1.5rem]'  /></a>
+                                <a href="https://aremudev-aremus-projects.vercel.app/"><FaGithub   className='text-[1.5rem] ' /> </a>
+                                <a  href="https://aremudev-aremus-projects.vercel.app/" ><FaLink  className='text-[1.5rem]'  /></a>
                             </div>
                         </div>
                     </div>
