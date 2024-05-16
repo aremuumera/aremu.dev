@@ -9,6 +9,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa6";
+// import { Resume } from '../assets/Aremu Dev Resume.pdf'
+
 
 const Header = () => {
 
@@ -48,7 +50,7 @@ const Header = () => {
                 </div>
                 <div className={`navLink ${openMenu ? 'open slide-in-right-Home' : '' }  `}>
                     <nav className={`flex items-center gap-[50px]   nav `}>
-                            <li className='slide-in-right-Home'>
+                            <li className='slide-in-right-Home  '>
                                 <LinkScroll onClick={handleLinkClick}to='/1' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem sm:text-[1rem]  `}> Home </LinkScroll>
                             </li>
                             <li className='slide-in-right-About' >
@@ -96,17 +98,17 @@ const Header = () => {
                     </div>
                     <div className="min-[1024px]:hidden flex items-center justify-center  text-center pt-[40px] resumeHeader  fade-in-bottom-socialResume">
                         <a className="button rounded-[10px]  flex items-center justify-center "> 
-                            <a href='#' className="flex gap">
+                            <a href='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="flex gap">
                                 <span>Resume </span>
                                 <span><GoDownload className='inline' /> </span>
                             </a>
                         </a>
                     </div>
                 </div>
-                <div className="lg:block hidden fade-in-bottom-socialResume">
-                    <button className="button flex items-center gap-[10px] sm:text-[1rem]">
+                <div className="lg:block hidden fade-in-bottom-socialResume ">
+                    <a  href='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="button flex items-center gap-[10px] sm:text-[1rem]">
                     Resume <span> <GoDownload /> </span>
-                    </button>
+                    </a>
                 </div>
                 <div className=" lg:hidden  menu ">
                     <input onClick={Checked}  id="checkbox2" type="checkbox"  className='check-icon hidden'/>

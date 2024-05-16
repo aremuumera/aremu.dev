@@ -17,14 +17,15 @@ const Home = () => {
               </p>
             </div>
             <div className="pt-[40px] flex justify-center gap- min-[360px]:gap-[30px]"> 
-                <button className="button HomeButton fade-in-bottom-d flex items-center gap-[10px]">
+                <a href='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="button HomeButton fade-in-bottom-d flex items-center gap-[10px]">
                     Resume <span> <GoDownload /> </span>
-                </button>
+                </a>
                 <LinkScroll to='contact' className="button HomeButton fade-in-bottom-d  bg-BgColor flex items-center gap-[4px] min-[360px]:gap-[10px]">
                     Let's Talk <span> <AiOutlineDingtalk /> </span>
                 </LinkScroll>
             </div>
         </div>
+        
       
     </div>
   )
