@@ -16,7 +16,7 @@ const Home = () => {
               entities that reside on the internet either websites, applications, or anything in the vast digital landscape.
               </p>
             </div>
-            <div className="pt-[40px] flex justify-center gap- min-[360px]:gap-[30px]"> 
+            <div className="pt-[40px] flex justify-center gap-[4px] min-[360px]:gap-[30px]"> 
                 <a href='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="button HomeButton fade-in-bottom-d flex items-center gap-[10px]">
                     Resume <span> <GoDownload /> </span>
                 </a>
