@@ -57,7 +57,7 @@ const Contact = () => {
                 <p className='text-textColor  text-[1.3rem] text-center'> 
                     Let's Connect
                 </p>
-                <div className='pt-[20px] w-full text-BgColor font-[600] sm:text-[4rem] text-[.9rem] text-center'>
+                <div className='pt-[20px] w-full text-BgColor font-[600] sm:text-[3rem] text-[.9rem] text-center'>
                    <h1 ref={el} className=''/>
                    <p className="mina text-textColor pt-[20px] max-w-[1000px] w-full mx-[auto] sm:text-[1.1rem] text-[.9rem] text-center " > Whether you have inquiries, project concepts, or simply want to drop a friendly "Hello," don't hesitate to reach out. 
                     <br/>I'm thrilled to engage in a conversation and explore the possibilities of transforming your web development ideas into 
