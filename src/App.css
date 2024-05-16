@@ -657,6 +657,7 @@ h6{
            animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.2s both; 
   }
 
+  
   }
 
 
@@ -677,20 +678,21 @@ h6{
     
   }
 
-  @media (min-width: 7770px) and (max-width: 979px) {
+  @media (min-width: 770px) and (max-width: 979px) {
     .projectContainer {
       margin-bottom: 0px !important;
       margin-left: 0px!important;
-      margin-top: 100px;
+      margin-top: 150px;
+      padding-top: 100px!important;
       }
   }
   @media (max-width: 769px){
-    .projectContainer{
+    .projectContainer, .projectContainer1{
       display: flex;
       flex-direction: column;
-      padding-top: 50px!important;
+      padding-top: 70px!important;
     }
-    .projectContainer .projectCont{
+    .projectContainer,  .projectCont{
       margin-bottom: 0px !important;
       margin-left: 0px!important;
       margin-top: -20px;
