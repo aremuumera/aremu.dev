@@ -49,16 +49,16 @@ const Header = () => {
                 <div className={`navLink ${openMenu ? 'open slide-in-right-Home' : '' }  `}>
                     <nav className={`flex items-center gap-[50px]   nav `}>
                             <li className='slide-in-right-Home'>
-                                <LinkScroll onClick={handleLinkClick}to='/1' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem  `}> Home </LinkScroll>
+                                <LinkScroll onClick={handleLinkClick}to='/1' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem sm:text-[1rem]  `}> Home </LinkScroll>
                             </li>
                             <li className='slide-in-right-About' >
-                                <LinkScroll onClick={handleLinkClick} to='about' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem  `}> About </LinkScroll>
+                                <LinkScroll onClick={handleLinkClick} to='about' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem  sm:text-[1rem] `}> About </LinkScroll>
                             </li>
                             <li className='slide-in-right-Project' >
-                                <LinkScroll onClick={handleLinkClick} to='projects' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem `}> Projects </LinkScroll>
+                                <LinkScroll onClick={handleLinkClick} to='projects' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem  sm:text-[1rem]`}> Projects </LinkScroll>
                             </li>
                             <li className='slide-in-right-Contact'>
-                                <LinkScroll onClick={handleLinkClick}  to='contact' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem `}> Contact </LinkScroll>
+                                <LinkScroll onClick={handleLinkClick}  to='contact' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem  sm:text-[1rem]`}> Contact </LinkScroll>
                             </li>
                     </nav>
                     <div className="min-[1024px]:hidden   socialHeader">
@@ -104,7 +104,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="lg:block hidden fade-in-bottom-socialResume">
-                    <button className="button flex items-center gap-[10px]">
+                    <button className="button flex items-center gap-[10px] sm:text-[1rem]">
                     Resume <span> <GoDownload /> </span>
                     </button>
                 </div>
