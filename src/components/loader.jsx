@@ -14,7 +14,7 @@ const Loader = () => {
 
   return (
     <div className={`loader-container ${showLoader ? ' fade-in-fwd ' : 'slide-out-top'}`}>
-      <div className="loader-text tracking-in-expand-fwd">Welcome to Aremu Website</div>
+      <div className="loader-text tracking-in-expand-fwd">Welcome to my Website</div>
     </div>
   );
 };

@@ -6,7 +6,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
     box-sizing:border-box;
     text-decoration:none ;
     list-style: none !important;
@@ -622,19 +621,21 @@ h6{
     .check-icon:checked + .icon-menu + .open {
       display: block !important;
    }
+
+
    .slide-in-right-Home {
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940)  both;
+            animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) .1s both;
   }
-  .slide-in-right-AboutUs {
+  .slide-in-right-About {
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) .2s both;
   }
-  .slide-in-right-Products {
+  .slide-in-right-Project {
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) .6s both;
   }
-  .slide-in-right-Services {
+  .slide-in-right-Contact {
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) .8s both;
   }
@@ -643,6 +644,19 @@ h6{
             animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s  both;
   }
  
+  .fade-in-bottom-socialHeaderText {
+    /* -webkit-animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both; */
+             animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) .6s both; 
+  }
+  .fade-in-bottom-SocialHeaderIcon {
+  /* -webkit-animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.2s both; */
+           animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) .9s both; 
+  } 
+  .fade-in-bottom-socialResume {
+  /* -webkit-animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.6s both; */
+           animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.2s both; 
+  }
+
   }
 
 

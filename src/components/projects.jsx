@@ -1,13 +1,18 @@
 
-import { motion } from "framer-motion";
+import { motion, useTransform, useScroll } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
+import { useRef } from "react";
 
 
 const Projects = () => {
-
-
+const ref = useRef(null);
+const { scrollYProgress } = useScroll({
+    target:ref,
+    offset:['0, 1', '1.33, 1']
+})
+ const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.9, 1] )
 
     const sliderVariants = {
         initial: {
@@ -33,9 +38,11 @@ const Projects = () => {
                     <span className='bg-HeaderTextColor w-[50px] h-[2px] '></span>
                     <h1 className='font-[500] text-HeaderTextColor sm:text-[2rem] text-[1.5rem]  rounded-[10px]' >Projects</h1>
             </div>
-                {/* =============================== project one ========================================================= */}
-            <div className=" md:pt-[80px] pt-[20px]">
-                <div  className="projectContainer flex items-center justify-end pt-[0px] w-full">
+               
+            
+            <div   className=" md:pt-[80px] pt-[20px]">
+                     {/* =============================== project one ========================================================= */}
+                    <div  className="projectContainer flex items-center justify-end pt-[0px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
                         <div className="w-full max-w-[600px]">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747895/ade_b6gccq.png' alt="portfolio image" className="w-[600px]"/>
                         </div>
@@ -53,7 +60,9 @@ const Projects = () => {
                                 <a  href="https://adedevelopers.com/" ><FaLink  className='text-[1.5rem]'  /></a>
                             </div>
                         </div>
-                </div>
+                    </div>
+               
+                {/* ========================================= FAINT BACKGROUND START============================== */}
                 <div className='relative '>
                 <motion.div
                 className="slidingTextContainer projectBgSlider1"
@@ -65,9 +74,9 @@ const Projects = () => {
                 </motion.div>
                 </div>
 
-                    {/* ========================================= project two ================================================= */}
-                
-                    <div  className="projectContainer flex items-center justify-end  pt-[120px]">
+                {/* ========================================= project two ================================================= */}
+               
+                    <div  className="projectContainer flex items-center justify-end  pt-[120px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747869/eccn_iccvoh.png' alt="portfolio image" />
                         </div>
@@ -92,7 +101,7 @@ const Projects = () => {
                 
                 
                 {/* ================================================= project three ============================================ */}
-                    <div  className="projectContainer flex items-center justify-end pt-[40px] sm:pt-[120px]">
+                    <div  className="projectContainer flex items-center justify-end pt-[40px] sm:pt-[120px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px]  ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715748267/myportfolio_t2knek.png' alt="portfolio image" />
                         </div>
@@ -125,7 +134,7 @@ const Projects = () => {
                         </div>
 
                 {/* ================================= project four   =================================================================== */}
-                     <div  className=" projectContainer flex items-center justify-end pt-[120px] w-full">
+                     <div  className=" projectContainer flex items-center justify-end pt-[120px] w-full"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715720626/mentor-1_uohzxh.png' alt="portfolio image" />
                         </div>
@@ -145,7 +154,7 @@ const Projects = () => {
                     </div>
             
                 {/* =========================== project five =============================================================== */}
-                    <div  className="projectContainer flex items-center justify-end pt-[120px]">
+                    <div  className="projectContainer flex items-center justify-end pt-[120px]"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="320"   data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747445/easy-bank_-snip_utyliv.png' alt="portfolio image" />
                         </div>

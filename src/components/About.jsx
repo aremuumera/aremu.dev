@@ -31,7 +31,7 @@ const About = () => {
         
         <div className="text-textColor pt-[40px] px-[8px] aboutCont  flex gap-[50px] items-start justify-center">
             <div className="w-full lg:max-w-[900px] ">
-                <p className='sm:text-[1.2rem]'>
+                <p className='sm:text-[1.2rem]'  data-aos="fade-right" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"         >
                     Hi, I'm Farouk Akinsanya, a dedicated Frontend Engineer driven by a passion for crafting engaging and dynamic online experiences.
                     My development stack encompasses a diverse range of tools and frameworks, such as <span className='text-[#8c3fd8]'>React , Nodejs Javascript, Tailwindcss </span>ensuring versatility and adaptability in my projects <br/> Also, with a keen eye for design 
                     and a focus on user experience I bring together the power of these technologies to build scalable, interactive user interfaces, responsive, and visually appealing websites and  web applications. <br/><br/>
@@ -49,10 +49,10 @@ const About = () => {
                     Beyond my coding endeavors, I derive great satisfaction from delving into side projects because it does not only helps me unleash my creativity but empower me to accomplish geat things.
                 </p>
             </div>
-            <div className="relative myImageWrapperCont w-[300px] ">
+            <div className="relative myImageWrapperCont w-[300px] "  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"   >
           
-                <div className="myImageWrapper relative">
-                    <div className="myImage max-w-[400px] ">
+                <div className="myImageWrapper relative" >
+                    <div className="myImage max-w-[400px] " >
                         <div className="img"></div>
                         {/* <img src={myImage} className='img relative sm:w-[300px] w-[300px] h-[380px] object-contain'/> */}
                     </div>

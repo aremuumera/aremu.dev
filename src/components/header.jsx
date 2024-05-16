@@ -48,24 +48,24 @@ const Header = () => {
                 </div>
                 <div className={`navLink ${openMenu ? 'open slide-in-right-Home' : '' }  `}>
                     <nav className={`flex items-center gap-[50px]   nav `}>
-                            <li className=''>
-                                <LinkScroll onClick={handleLinkClick}to='/1' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem`}> Home </LinkScroll>
+                            <li className='slide-in-right-Home'>
+                                <LinkScroll onClick={handleLinkClick}to='/1' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem  `}> Home </LinkScroll>
                             </li>
-                            <li className='' >
-                                <LinkScroll onClick={handleLinkClick} to='about' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem`}> About </LinkScroll>
+                            <li className='slide-in-right-About' >
+                                <LinkScroll onClick={handleLinkClick} to='about' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem  `}> About </LinkScroll>
                             </li>
-                            <li className='' >
-                                <LinkScroll onClick={handleLinkClick} to='projects' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem`}> Projects </LinkScroll>
+                            <li className='slide-in-right-Project' >
+                                <LinkScroll onClick={handleLinkClick} to='projects' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem `}> Projects </LinkScroll>
                             </li>
-                            <li className=''>
-                                <LinkScroll onClick={handleLinkClick}  to='contact' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem`}> Contact </LinkScroll>
+                            <li className='slide-in-right-Contact'>
+                                <LinkScroll onClick={handleLinkClick}  to='contact' smooth={true} duration={100} spy={true} activeClass='active' offset={0} className={`text-xl font-[500] navLinkItem `}> Contact </LinkScroll>
                             </li>
                     </nav>
                     <div className="min-[1024px]:hidden   socialHeader">
                             <div className="contact-social-handle pt-[10px]">
                             
-                            <h2 className='text-HeaderTextColor sm:text-[1.5rem] text-[1.1rem] text-center   '>You can reach out with me via:</h2>
-                            <ul className='flex justify-center items-center gap-[15px] pt-[30px]'>
+                            <h2 className='text-HeaderTextColor sm:text-[1.5rem] text-[1.1rem] text-center  fade-in-bottom-socialHeaderText '>You can reach out with me via:</h2>
+                            <ul className='flex justify-center items-center gap-[15px] pt-[30px] fade-in-bottom-SocialHeaderIcon'>
                                 <li className="imna">
                                     <a href="https://github.com/aremuumera">
                                     <FaGithub className='text-textColor text-[2rem]'/>
@@ -94,7 +94,7 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="min-[1024px]:hidden flex items-center justify-center  text-center pt-[40px] resumeHeader">
+                    <div className="min-[1024px]:hidden flex items-center justify-center  text-center pt-[40px] resumeHeader  fade-in-bottom-socialResume">
                         <a className="button rounded-[10px]  flex items-center justify-center "> 
                             <a href='#' className="flex gap">
                                 <span>Resume </span>
@@ -103,7 +103,7 @@ const Header = () => {
                         </a>
                     </div>
                 </div>
-                <div className="lg:block hidden">
+                <div className="lg:block hidden fade-in-bottom-socialResume">
                     <button className="button flex items-center gap-[10px]">
                     Resume <span> <GoDownload /> </span>
                     </button>

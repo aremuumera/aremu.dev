@@ -31,7 +31,7 @@ function App() {
 }
 
 function DelayedLoaderRoute() {
-  return <DelayedLoader delay={4000} />;
+  return <DelayedLoader delay={3000} />;
 }
 
 function DelayedLoader({ delay }) {
