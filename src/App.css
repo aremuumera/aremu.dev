@@ -39,7 +39,7 @@ h6{
 
 .Hero {
   width: 100%;
-  background: url(./assets/heroImg.jpg) center/cover no-repeat; /* Normal background */
+  background: url(./assets/heroImg.jpg) center/cover no-repeat
 }
 
 

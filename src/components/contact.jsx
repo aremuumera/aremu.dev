@@ -96,7 +96,7 @@ const Contact = () => {
                                 </a>
                             </li>
                             <li className="imna" data-delay=".9.8s">
-                                <a href="https://wa.me/08050255377" target="_blank">
+                                <a href="https://wa.me/+2348050255377" target="_blank">
                                   <FaWhatsapp  className='text-textColor text-[2rem]' />
                                 </a>
                             </li>
