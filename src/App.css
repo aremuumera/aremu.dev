@@ -304,7 +304,7 @@ h6{
 
 /*==================================== About Me start =================================================== */
 .aboutssss{
-  z-index: 10000000!important;
+  z-index: 1!important;
 }
 .img{
   background: linear-gradient(  rgba(0, 0, 0, 0.349) 0%, rgba(0, 0, 0, 0.644) 100%), url(./assets/myPicture2.jpg);
@@ -369,7 +369,7 @@ h6{
 
 /* ================================== Project start ========================================================= */
  .project, .projectContainer, .projectContainer1, .projectContainer2{
-  z-index: 10000000 !important;
+  z-index: 1!important;
 }
 .slidingTextContainer {
   position: absolute;
@@ -419,7 +419,7 @@ h6{
 
 /* ================================== contact start ============================================= */
 .contactsss{
-  z-index: 1000000!important;
+  z-index: 1!important;
 }
 .ContactContainer{
   background: url('https://res.cloudinary.com/dvkv4p72u/image/upload/v1715760565/wallpaperflare.com_wallpaper_7_pcrahi.jpg');
@@ -580,7 +580,7 @@ h6{
       width: 85%;
       top: 0;
       right:-100%;
-      z-index: 100;
+      z-index: 10000000000000000000000000000!important;
       height: 100%;
       align-items: center !important;
       display:none;
