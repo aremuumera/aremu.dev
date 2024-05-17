@@ -70,7 +70,7 @@ const Header = () => {
                             <ul className='flex justify-center items-center gap-[15px] pt-[30px] fade-in-bottom-SocialHeaderIcon'>
                                 <li className="imna">
                                     <a href="https://github.com/aremuumera">
-                                    <FaGithub className='text-textColor text-[2rem]'/>
+                                       <FaGithub className='text-textColor text-[2rem]'/>
                                     </a>
                                 </li>
                                 <li className="imna" data-delay=".7.8s">
@@ -97,17 +97,17 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="min-[1024px]:hidden flex items-center justify-center  text-center pt-[40px] resumeHeader  fade-in-bottom-socialResume">
-                        <a className="button rounded-[10px]  flex items-center justify-center "> 
+                        <div className="button rounded-[10px]  flex items-center justify-center "> 
                             <Link to='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="flex gap">
                                 <span>Resume </span>
                                 <span><GoDownload className='inline' /> </span>
                             </Link>
-                        </a>
+                        </div>
                     </div>
                 </div>
                 <div className="lg:block hidden fade-in-bottom-socialResume ">
                     <Link  to='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="button flex items-center gap-[10px] sm:text-[1rem]">
-                    Resume <span> <GoDownload /> </span>
+                        Resume <span> <GoDownload /> </span>
                     </Link>
                 </div>
                 <div className=" lg:hidden  menu ">

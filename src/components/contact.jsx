@@ -47,7 +47,7 @@ const Contact = () => {
 
   return (
     <div >
-        <div id='contact' className=" relative overflow-hidden ContactContainer md:pt-[110px] pt-[90px] px-[10px] h-full xl:px-[100px] md:px-[60px] pb-[100px] sm:pb-[100px]">
+        <div id='contact' className=" contactsss  relative overflow-hidden ContactContainer md:pt-[110px] pt-[90px] px-[10px] h-full xl:px-[100px] md:px-[60px] pb-[100px] sm:pb-[100px]">
             <div className=" flex gap-[3px] items-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[260px] w-[260px] rounded-[10px]">
                 <span className='bg-HeaderTextColor w-[50px] h-[2px] '></span>
                 <h1 className='font-[500] text-HeaderTextColor sm:text-[2rem] text-[1.5rem]  rounded-[10px]' > Contact Me</h1>
@@ -81,7 +81,7 @@ const Contact = () => {
                                 </a>
                             </li>
                             <li className="imna" data-delay=".7.8s">
-                                <a href="https://www.linkedin.com/in/farouk-akinsanya-993563236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
+                                <a href="_source=share&uhttps://www.linkedin.com/in/farouk-akinsanya-993563236?utmtm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
                                     <FaLinkedinIn  className='text-textColor text-[2rem]'/>
                                 </a>
                             </li>

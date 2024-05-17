@@ -8,8 +8,9 @@
     margin: 0;
     box-sizing:border-box;
     text-decoration:none ;
-    list-style: none !important;
+    list-style-type: none !important;
     scroll-behavior: smooth !important;
+    
 }
 
 *, #root, html{
@@ -19,7 +20,10 @@
    scroll-behavior: smooth !important;
   
 }
-
+.projectContLink Link{
+  cursor: pointer!important;
+  list-style-type: none !important;
+ }
 html,body{
   scroll-behavior: smooth !important;
   background: #111;
@@ -299,6 +303,9 @@ h6{
 
 
 /*==================================== About Me start =================================================== */
+.aboutssss{
+  z-index: 10000000!important;
+}
 .img{
   background: linear-gradient(  rgba(0, 0, 0, 0.349) 0%, rgba(0, 0, 0, 0.644) 100%), url(./assets/myPicture2.jpg);
     background-position: center;
@@ -361,6 +368,9 @@ h6{
 /* ==================================  About Me end =========================================================================== */
 
 /* ================================== Project start ========================================================= */
+ .project, .projectContainer, .projectContainer1, .projectContainer2{
+  z-index: 10000000 !important;
+}
 .slidingTextContainer {
   position: absolute;
   font-size: 50vh;
@@ -369,6 +379,7 @@ h6{
   color: #ffffff09;
   width: 50%;
   font-weight: bold;
+  z-index: -2 !important;
 }
 .projectCont {
   position: relative;
@@ -404,12 +415,12 @@ h6{
   color: #62398A;
 } 
 
-.projectContainer{
-
-}
 /* =================================== Project end =============================================== */
 
 /* ================================== contact start ============================================= */
+.contactsss{
+  z-index: 1000000!important;
+}
 .ContactContainer{
   background: url('https://res.cloudinary.com/dvkv4p72u/image/upload/v1715760565/wallpaperflare.com_wallpaper_7_pcrahi.jpg');
   background-position:center ;
@@ -680,31 +691,33 @@ h6{
       height: 300px !important;
       object-fit: contain;
     }
+
+    .projectContainer {
+      margin-bottom: 3280px !important;
+    }
     
   }
 
   @media (min-width: 770px) and (max-width: 979px) {
     .projectContainer {
-      margin-bottom: 0px !important;
       margin-left: 0px!important;
-      margin-top: 150px;
-      padding-top: 100px!important;
+      margin-bottom: 250px !important;
       }
   }
+
   @media (max-width: 769px){
-    .projectContainer, .projectContainer1{
+    .projectContainer, .projectContainer1, .projectContainer2{
       display: flex;
       flex-direction: column;
-      padding-top: 70px!important;
+      
     }
+
     .projectContainer,  .projectCont{
-      margin-bottom: 0px !important;
+      margin-bottom: 40px!important;
       margin-left: 0px!important;
       margin-top: -20px;
       }
-      .projectHeader{
-
-      }
+     
   }
   @media (max-width: 430px){
 

@@ -27,7 +27,7 @@ const Projects = () => {
 
   return (
     <div className=''>
-        <div id='projects' className='relative  overflow-hidden text-HeaderTextColor   sm:pt-[120px] pt-[90px] sm:pb-[100px] pb-[80px] xl:px-[160px] md:px-[60px] px-[15px] h-full bg-mainBlack'>
+        <div id='projects' className='relative project  overflow-hidden text-HeaderTextColor   sm:pt-[120px] pt-[90px] sm:pb-[100px] pb-[80px] xl:px-[160px] md:px-[60px] px-[15px] h-full bg-mainBlack'>
         
             <div className=" flex gap-[3px] items-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[210px] w-[190px] rounded-[10px]">
                     <span className='bg-HeaderTextColor w-[50px] h-[2px] '></span>
@@ -37,7 +37,7 @@ const Projects = () => {
             
             <div   className=" lg:pt-[80px]  ">
                      {/* =============================== project one ========================================================= */}
-                    <div  className="projectContainer1 pt-[50px]  flex items-center justify-end  w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
+                    <div  className="projectContainer1 projectContainer  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
                         <div className="w-full max-w-[600px]">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747895/ade_b6gccq.png' alt="portfolio image" className="w-[600px]"/>
                         </div>
@@ -51,8 +51,12 @@ const Projects = () => {
                                 <span>swiper.Js</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <Link to="https://adedevelopers.com/"><FaGithub   className='text-[1.5rem]' /> </Link>
-                                <Link  to="https://adedevelopers.com/" ><FaLink  className='text-[1.5rem]'  /></Link>
+                                <li>
+                                    <Link to="https://adedevelopers.com/" target='_blank'><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                    <Link to="https://adedevelopers.com/" target='_blank'><FaLink   className='text-[1.5rem]' /> </Link>
+                                </li>                         
                             </div>
                         </div>
                     </div>
@@ -64,6 +68,7 @@ const Projects = () => {
                 variants={sliderVariants}
                 initial="initial"
                 animate="animate"
+                style={{ zIndex: 0 }}
                 >
                 aremu.dev
                 </motion.div>
@@ -71,7 +76,7 @@ const Projects = () => {
 
                 {/* ========================================= project two ================================================= */}
                
-                    <div  className="projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                    <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747869/eccn_iccvoh.png' alt="portfolio image" />
                         </div>
@@ -88,15 +93,19 @@ const Projects = () => {
                                 <span>sass</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <Link to="#"><FaGithub   className='text-[1.5rem]' /> </Link>
-                                <Link  to="#" ><FaLink  className='text-[1.5rem]'  /></Link>
-                            </div>
+                                <li>
+                                   <Link  to="#" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="#" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
                         </div>
                     </div>
                 
                 
                 {/* ================================================= project three ============================================ */}
-                    <div  className="projectContainer flex items-center justify-end pt-[40px] lg:pt-[180px]  xl:pt-[150px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="110" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                    <div  className="projectContainer flex items-center justify-end  lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="110" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px]  ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715748267/myportfolio_t2knek.png' alt="portfolio image" />
                         </div>
@@ -110,8 +119,8 @@ const Projects = () => {
                                 <span>AOS.JS</span>
                             </div>
                             <div className="flex projectContLink items-center pt-[10px] gap-[15px]">
-                                <Link to="https://aremudev-aremus-projects.vercel.app/"> <FaGithub   className='text-[1.5rem] ' /> </Link>
-                                <Link to="https://aremudev-aremus-projects.vercel.app/"> <FaLink  className='text-[1.5rem]'  /></Link>
+                                <Link to="https://aremudev-aremus-projects.vercel.app/" target='_blank'> <FaGithub   className='text-[1.5rem] ' /> </Link>
+                                <Link to="https://aremudev-aremus-projects.vercel.app/" target='_blank'> <FaLink  className='text-[1.5rem]'  /></Link>
                             </div>
                         </div>
                     </div>
@@ -123,13 +132,14 @@ const Projects = () => {
                             variants={sliderVariants}
                             initial="initial"
                             animate="animate"
+                            style={{ zIndex: 0 }}
                             >
                             aremu.dev
                             </motion.div>
                         </div>
 
                 {/* ================================= project four   =================================================================== */}
-                     <div  className=" projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px] w-full"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                     <div  className=" projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb[200px] w-full"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715720626/mentor-1_uohzxh.png' alt="portfolio image" />
                         </div>
@@ -142,14 +152,18 @@ const Projects = () => {
                                 <span>AOS.JS</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <Link to="https://github.com/aremuumera/Mentor-me "><FaGithub   className='text-[1.5rem]' /> </Link>
-                                <Link  to="https://mentor-me-eosin.vercel.app/" ><FaLink  className='text-[1.5rem]'  /></Link>
+                                <li>
+                                    <a href="https://github.com/aremuumera/Mentor-me " target='_blank'><FaGithub   className='text-[1.5rem]' /> </a>
+                                </li>
+                                <li>
+                                    <a  href="https://mentor-me-eosin.vercel.app/" target='_blank' ><FaLink  className='text-[1.5rem]'/></a>
+                                </li>
                             </div>
                         </div>
                     </div>
             
                 {/* =========================== project five =============================================================== */}
-                    <div  className="projectContainer flex items-center justify-end lg:pt-[180px]  xl:pt-[150px]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="180" data-aos-easing="ease-in-out " data-aos-offset="320"   data-aos-once="false"      >
+                    <div  className="projectContainer2 flex items-center justify-end  " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="180" data-aos-easing="ease-in-out " data-aos-offset="320"   data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747445/easy-bank_-snip_utyliv.png' alt="portfolio image" />
                         </div>
@@ -163,8 +177,12 @@ const Projects = () => {
                                 <span>html</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <Link to="https://github.com/aremuumera/Easybank-Landing-page"> <FaGithub   className='text-[1.5rem]' /> </Link>
-                                <Link  to="https://easybank-landing-page-nine-chi.vercel.app/">  <FaLink  className='text-[1.5rem]'  /></Link>
+                                <li>
+                                    <a href="https://easybank-landing-page-nine-chi.vercel.app/" target='_blank'><FaGithub  className='text-[1.5rem]'  /></a>
+                                </li>
+                               <li>
+                                    <a  href="https://easybank-landing-page-nine-chi.vercel.app/" target='_blank'><FaLink  className='text-[1.5rem]'  /></a>
+                                </li>
                             </div>
                         </div>
                     </div>
@@ -176,12 +194,12 @@ const Projects = () => {
                 variants={sliderVariants}
                 initial="initial"
                 animate="animate"
-            >
+                >
                 aremu.dev
-            </motion.div>
+                </motion.div>
             </div>
 
-            <div className=" flex justify-center pt-[60px] min-[769px]:pt-[190px] ">
+            <div className=" flex justify-center pt-[40px] min-[769px]:pt-[190px] ">
             <Link to="#" className=" flex gap-[3px] items-center justify-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[200px] w-[200px] rounded-[10px]">
                 {/* <span className='bg-HeaderTextColor w-[50px] h-[2px] '></span> */}
                 <h1 className='font-[500] text-HeaderTextColor text-[1.2rem]  rounded-[10px]'> More Projects</h1>
