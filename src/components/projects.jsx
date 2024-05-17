@@ -3,6 +3,7 @@ import { motion,  } from "framer-motion";
 // import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 
@@ -50,8 +51,8 @@ const Projects = () => {
                                 <span>swiper.Js</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <a href="https://adedevelopers.com/"><FaGithub   className='text-[1.5rem]' /> </a>
-                                <a  href="https://adedevelopers.com/" ><FaLink  className='text-[1.5rem]'  /></a>
+                                <Link to="https://adedevelopers.com/"><FaGithub   className='text-[1.5rem]' /> </Link>
+                                <Link  to="https://adedevelopers.com/" ><FaLink  className='text-[1.5rem]'  /></Link>
                             </div>
                         </div>
                     </div>
@@ -87,8 +88,8 @@ const Projects = () => {
                                 <span>sass</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <a href="#"><FaGithub   className='text-[1.5rem]' /> </a>
-                                <a  href="#" ><FaLink  className='text-[1.5rem]'  /></a>
+                                <Link to="#"><FaGithub   className='text-[1.5rem]' /> </Link>
+                                <Link  to="#" ><FaLink  className='text-[1.5rem]'  /></Link>
                             </div>
                         </div>
                     </div>
@@ -109,8 +110,8 @@ const Projects = () => {
                                 <span>AOS.JS</span>
                             </div>
                             <div className="flex projectContLink items-center pt-[10px] gap-[15px]">
-                                <a href="https://aremudev-aremus-projects.vercel.app/"> <FaGithub   className='text-[1.5rem] ' /> </a>
-                                <a  href="https://aremudev-aremus-projects.vercel.app/"> <FaLink  className='text-[1.5rem]'  /></a>
+                                <Link to="https://aremudev-aremus-projects.vercel.app/"> <FaGithub   className='text-[1.5rem] ' /> </Link>
+                                <Link to="https://aremudev-aremus-projects.vercel.app/"> <FaLink  className='text-[1.5rem]'  /></Link>
                             </div>
                         </div>
                     </div>
@@ -141,8 +142,8 @@ const Projects = () => {
                                 <span>AOS.JS</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <a href="https://github.com/aremuumera/Mentor-me "><FaGithub   className='text-[1.5rem]' /> </a>
-                                <a  href="https://mentor-me-eosin.vercel.app/" ><FaLink  className='text-[1.5rem]'  /></a>
+                                <Link to="https://github.com/aremuumera/Mentor-me "><FaGithub   className='text-[1.5rem]' /> </Link>
+                                <Link  to="https://mentor-me-eosin.vercel.app/" ><FaLink  className='text-[1.5rem]'  /></Link>
                             </div>
                         </div>
                     </div>
@@ -162,8 +163,8 @@ const Projects = () => {
                                 <span>html</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <a href="https://github.com/aremuumera/Easybank-Landing-page"> <FaGithub   className='text-[1.5rem]' /> </a>
-                                <a  href="https://easybank-landing-page-nine-chi.vercel.app/">  <FaLink  className='text-[1.5rem]'  /></a>
+                                <Link to="https://github.com/aremuumera/Easybank-Landing-page"> <FaGithub   className='text-[1.5rem]' /> </Link>
+                                <Link  to="https://easybank-landing-page-nine-chi.vercel.app/">  <FaLink  className='text-[1.5rem]'  /></Link>
                             </div>
                         </div>
                     </div>
@@ -181,10 +182,10 @@ const Projects = () => {
             </div>
 
             <div className=" flex justify-center pt-[60px] min-[769px]:pt-[190px] ">
-            <a href="#" className=" flex gap-[3px] items-center justify-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[200px] w-[200px] rounded-[10px]">
+            <Link to="#" className=" flex gap-[3px] items-center justify-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[200px] w-[200px] rounded-[10px]">
                 {/* <span className='bg-HeaderTextColor w-[50px] h-[2px] '></span> */}
                 <h1 className='font-[500] text-HeaderTextColor text-[1.2rem]  rounded-[10px]'> More Projects</h1>
-            </a>
+            </Link>
             </div>
         </div>
 
