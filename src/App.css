@@ -611,13 +611,6 @@ h6{
       /* padding-top: 180px; */
     } 
 
-    .header-cont .navLink .socialHeader, .resumeHeader{
-      /* width: 100px;
-      height: 100%;
-      z-index: 200;
-      background: #070F2B;
-      position: absolute; */
-    }
 
     .header-cont nav ul li {
       font-size: 2rem;
@@ -671,7 +664,10 @@ h6{
   /* -webkit-animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.6s both; */
            animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.2s both; 
   }
-
+ 
+  .projectContainer {
+    margin-bottom: 250px !important;
+  }
     
   
   }
@@ -693,7 +689,7 @@ h6{
     }
 
     .projectContainer {
-      margin-bottom: 3280px !important;
+      margin-bottom: 250px !important;
     }
     
   }

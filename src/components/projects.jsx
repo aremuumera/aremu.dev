@@ -37,7 +37,7 @@ const Projects = () => {
             
             <div   className=" lg:pt-[80px]  ">
                      {/* =============================== project one ========================================================= */}
-                    <div  className="projectContainer1 projectContainer  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
+                    <div  className="projectContainer1 projectContainer pt-[60px] sm:pt-[60px]  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
                         <div className="w-full max-w-[600px]">
                             <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747895/ade_b6gccq.png' alt="portfolio image" className="w-[600px]"/>
                         </div>
