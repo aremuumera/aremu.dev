@@ -109,8 +109,8 @@ const Projects = () => {
                                 <span>AOS.JS</span>
                             </div>
                             <div className="flex projectContLink items-center pt-[10px] gap-[15px]">
-                                <a href="https://aremudev-aremus-projects.vercel.app/"><FaGithub   className='text-[1.5rem] ' /> </a>
-                                <a  href="https://aremudev-aremus-projects.vercel.app/" ><FaLink  className='text-[1.5rem]'  /></a>
+                                <a href="https://aremudev-aremus-projects.vercel.app/"> <FaGithub   className='text-[1.5rem] ' /> </a>
+                                <a  href="https://aremudev-aremus-projects.vercel.app/"> <FaLink  className='text-[1.5rem]'  /></a>
                             </div>
                         </div>
                     </div>
@@ -162,8 +162,8 @@ const Projects = () => {
                                 <span>html</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <a href="https://github.com/aremuumera/Easybank-Landing-page"><FaGithub   className='text-[1.5rem]' /> </a>
-                                <a  href="https://easybank-landing-page-nine-chi.vercel.app/" ><FaLink  className='text-[1.5rem]'  /></a>
+                                <a href="https://github.com/aremuumera/Easybank-Landing-page"> <FaGithub   className='text-[1.5rem]' /> </a>
+                                <a  href="https://easybank-landing-page-nine-chi.vercel.app/">  <FaLink  className='text-[1.5rem]'  /></a>
                             </div>
                         </div>
                     </div>
