@@ -225,12 +225,12 @@ const Projects = () => {
                 </motion.div>
             </div>
 
-            <div className=" flex justify-center pt-[40px] min-[769px]:pt-[190px] ">
-            <Link to="#" className=" flex gap-[3px] items-center justify-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[200px] w-[200px] rounded-[10px]">
+            {/* <div className=" flex justify-center pt-[40px] min-[769px]:pt-[190px] "> */}
+            {/* <Link to="#" className=" flex gap-[3px] items-center justify-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[200px] w-[200px] rounded-[10px]"> */}
                 {/* <span className='bg-HeaderTextColor w-[50px] h-[2px] '></span> */}
-                <h1 className='font-[500] text-HeaderTextColor text-[1.2rem]  rounded-[10px]'> More Projects</h1>
-            </Link>
-            </div>
+                {/* <h1 className='font-[500] text-HeaderTextColor text-[1.2rem]  rounded-[10px]'> More Projects</h1> */}
+            {/* </div></Link> */}
+            {/* </div> */}
         </div>
 
         
