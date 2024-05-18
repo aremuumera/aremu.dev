@@ -23,7 +23,7 @@ const About = () => {
         },
       };
   return (
-    <div id='about' className=' aboutssss relative overflow-hidden sm:pt-[120px] pt-[100px] sm:pb-[60px] pb-[50px] lg:px-[160px] md:px-[60px] sm:[30px] px-[15px] h-full bg-mainBlack' >
+    <div id='about' className=' aboutssss relative overflow-hidden sm:pt-[120px] pt-[100px] sm:pb-[60px] pb-[50px] xl:px-[160px] lg:px-[90px] md:px-[60px] sm:[30px] px-[15px] h-full bg-mainBlack' >
         
         <div className="flex gap-[3px] items-center bg-mainBlack2 px-[15px] py-[8px] sm:w-[230px] w-[210px] rounded-[10px]">
             <span className='bg-HeaderTextColor w-[50px] h-[2px]      '></span>
@@ -71,7 +71,7 @@ const About = () => {
             </div>
             <div className="tech-stack pt-[20px] flex flex-wrap gap-[10px] ">
                 <span>React JS</span>
-                <span>Next.js</span>
+                {/* <span>Next.js</span> */}
                 <span>Javascript</span>
                 <span>Nodejs</span>
                 <span>Firebase</span>

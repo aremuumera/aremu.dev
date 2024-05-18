@@ -4,7 +4,7 @@ import { motion,  } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import {Subwallet} from './images'
 
 
 const Projects = () => {
@@ -75,6 +75,32 @@ const Projects = () => {
                 </div>
 
                 {/* ========================================= project two ================================================= */}
+               
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Subwallet} alt="Subwallet image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Subwallet</h1>
+                            <p className="pt-[15px] text-textColor">This is a VTU (Virtual Top-Up) website that provides services such as airtime and data purchases, cable subscriptions, and airtime to cash conversions.</p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>TailwindCSS</span>
+                                <span>Material ui</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="https://subwallet.ng/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="https://subwallet.ng/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
+                
+                
+                {/* ========================================= project three ================================================= */}
                
                     <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
