@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {Subwallet} from './images'
-
+import {Nike} from './images';
 
 const Projects = () => {
 
@@ -75,6 +75,31 @@ const Projects = () => {
                 </div>
 
                 {/* ========================================= project two ================================================= */}
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Nike} alt="Subwallet image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Nike Store</h1>
+                            <p className="pt-[15px] text-textColor">This is a web application for a fictional Nike store that showcases various products, allows users to browse by categories, and add items to their cart.
+                             Initially inspired by a tutorial, the project was further enhanced with unique customizations and additional features</p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>TailwindCSS</span>
+                                <span>React-Redux</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="https://nike-store-beryl.vercel.app/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="https://nike-store-beryl.vercel.app/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
+                
+                {/* ========================================= project two ================================================= */}
                
                 <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
@@ -98,8 +123,8 @@ const Projects = () => {
                              </div>
                         </div>
                     </div>
-                
-                
+
+
                 {/* ========================================= project three ================================================= */}
                
                     <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
