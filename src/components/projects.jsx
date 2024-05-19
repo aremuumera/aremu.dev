@@ -5,7 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {Subwallet} from './images'
-import {Nike} from './images';
+import {Nike, Ade, Eccn} from './images';
+
 
 const Projects = () => {
 
@@ -35,11 +36,12 @@ const Projects = () => {
             </div>
                
             
-            <div   className=" lg:pt-[80px]  ">
+            <div   className=" lg:pt-[80px] sm:pb-[40px] ">
                      {/* =============================== project one ========================================================= */}
                     <div  className="projectContainer1 projectContainer pt-[60px] sm:pt-[60px]  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
                         <div className="w-full max-w-[600px]">
-                            <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747895/ade_b6gccq.png' alt="portfolio image" className="w-[600px]"/>
+                            {/* <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747895/ade_b6gccq.png' alt="portfolio image" className="w-[600px]"/> */}
+                            <img src={Ade} alt="portfolio image" className="w-[600px]"/>
                         </div>
                         <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
                             <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">A D E Developers website</h1>
@@ -129,7 +131,8 @@ const Projects = () => {
                
                     <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
-                            <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747869/eccn_iccvoh.png' alt="portfolio image" />
+                            {/* <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747869/eccn_iccvoh.png' alt="portfolio image" /> */}
+                            <img src={Eccn} alt="portfolio image" />
                         </div>
                         <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
                             <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Evangelican Church of Christ In Nigeria</h1>
