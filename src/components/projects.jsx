@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {Subwallet} from './images'
-import {Nike, Ade, Eccn} from './images';
+import {Nike, Ade, Eccn, Medify} from './images';
 
 
 const Projects = () => {
@@ -101,6 +101,28 @@ const Projects = () => {
                         </div>
                     </div>
                 
+                {/* ================================================= project three ============================================ */}
+                <div  className="projectContainer flex items-center justify-end  lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="110" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px]  ">
+                            <img src={Medify} alt="portfolio image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] "> Medify Chat</h1>
+                            <p className="pt-[15px] text-textColor">This is a comprehensive health management and wellness platform designed to make your healthcare journey simpler and more connected.This chat-based application provides a seamless way to connect with healthcare professionals, track your health metrics, and get personalized advice—all in one convenient place.</p>
+                            <div className="projectStack py-[15px] flex gap-[10px] flex-wrap ">
+                                <span>React Js</span>
+                                <span>TailwindCSS</span>
+                                <span>Node Js</span>
+                                <span>Stream Chat API</span>
+                                <span>Twilio</span>
+                            </div>
+                            <div className="flex projectContLink items-center pt-[10px] gap-[15px]">
+                                <Link to="https://aremudev-aremus-projects.vercel.app/" target='_blank'> <FaGithub   className='text-[1.5rem] ' /> </Link>
+                                <Link to="https://aremudev-aremus-projects.vercel.app/" target='_blank'> <FaLink  className='text-[1.5rem]'  /></Link>
+                            </div>
+                        </div>
+                    </div>
+                    
                 {/* ========================================= project two ================================================= */}
                
                 <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
@@ -178,6 +200,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                
                 
                     
                         <div className='relative'>
