@@ -117,12 +117,12 @@ const Projects = () => {
                                 <span>Twilio</span>
                             </div>
                             <div className="flex projectContLink items-center pt-[10px] gap-[15px]">
-                                <Link to="https://aremudev-aremus-projects.vercel.app/" target='_blank'> <FaGithub   className='text-[1.5rem] ' /> </Link>
-                                <Link to="https://aremudev-aremus-projects.vercel.app/" target='_blank'> <FaLink  className='text-[1.5rem]'  /></Link>
+                                <Link to="https://github.com/aremuumera/Medify-Chat" target='_blank'> <FaGithub   className='text-[1.5rem] ' /> </Link>
+                                <Link to="https://medify-chat.vercel.app/" target='_blank'> <FaLink  className='text-[1.5rem]'  /></Link>
                             </div>
                         </div>
                     </div>
-                    
+
                 {/* ========================================= project two ================================================= */}
                
                 <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
