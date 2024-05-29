@@ -170,10 +170,10 @@ const Projects = () => {
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
                                 <li>
-                                   <Link  to="#" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                   <Link  to="https://eccnchurch.org/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
                                 </li>
                                 <li>
-                                   <Link to="#" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                   <Link to="https://eccnchurch.org/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
                                 </li>                           
                              </div>
                         </div>
