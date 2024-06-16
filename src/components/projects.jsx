@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {Subwallet} from './images'
-import {Nike, Ade, Eccn, Medify} from './images';
+import {Nike, Ade, Eccn, Medify, Finch} from './images';
 
 
 const Projects = () => {
@@ -58,6 +58,35 @@ const Projects = () => {
                                 </li>
                                 <li>
                                     <Link to="https://adedevelopers.com/" target='_blank'><FaLink   className='text-[1.5rem]' /> </Link>
+                                </li>                         
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {/* =============================== project ========================================================= */}
+                    <div  className="projectContainer1 projectContainer pt-[60px] sm:pt-[60px]  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
+                        <div className="w-full max-w-[600px]">
+                            {/* <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747895/ade_b6gccq.png' alt="portfolio image" className="w-[600px]"/> */}
+                            <img src={Finch} alt="portfolio image" className="w-[600px]"/>
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Artistry by Finch</h1>
+                            <p className="pt-[15px] text-textColor">This is a makeup artist website meticulously designed to enhance your beauty through professional makeup services and showcasing various makeup looks and transformations, which encompass bridal makeup, party glam, and everyday beauty solutions.</p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>TailwindCSS</span>
+                                <span>AOS.JS</span>
+                                <span>swiper.Js</span>
+                                <span>Framer motion</span>
+                                <span>python</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                    <Link to="https://artistry-by-finch.vercel.app/" target='_blank'><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                    <Link to="https://artistry-by-finch.vercel.app/" target='_blank'><FaLink   className='text-[1.5rem]' /> </Link>
                                 </li>                         
                             </div>
                         </div>
