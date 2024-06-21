@@ -4,7 +4,7 @@ import { motion,  } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import {Subwallet} from './images'
+import {Blog, Subwallet} from './images'
 import {Nike, Ade, Eccn, Medify, Finch} from './images';
 
 
@@ -151,6 +151,33 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* ========================================= project two ================================================= */}
+               
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Blog} alt="Subwallet image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Modern Blog</h1>
+                            <p className="pt-[15px] text-textColor">This is a Modern Blog Website showing various updates, trending news about Startups Security, AI, Apps and Tech</p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>TailwindCSS</span>
+                                <span>Node Js</span>
+                                <span>Express Js</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="https://subwallet.ng/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="https://subwallet.ng/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
+
 
                 {/* ========================================= project two ================================================= */}
                
