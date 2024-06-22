@@ -4,7 +4,7 @@ import { motion,  } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import {Blog, Subwallet} from './images'
+import {Blog, ProductFilter, Subwallet} from './images'
 import {Nike, Ade, Eccn, Medify, Finch} from './images';
 
 
@@ -199,6 +199,33 @@ const Projects = () => {
                                 </li>
                                 <li>
                                    <Link to="https://subwallet.ng/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
+
+                {/* ========================================= project two ================================================= */}
+               
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={ProductFilter} alt="Product image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Ecommerce Product Filter</h1>
+                            <p className="pt-[15px] text-textColor">This is an Ecommerce filter product software used to filter products based on user selections. Users can filter products using search input, different categories such as color, price range, and other attributes to refine their search results and find the products they are interested in.</p>
+                            <p className="text-xl pt-[10px]">P.O.V: should be viewed on desktop </p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>Vanilla Js</span>
+                                <span>Web scraping data</span>
+                                <span>CSS3</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="https://github.com/aremuumera/Modern-Blog-website" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="https://ecommerce-product-filter-two.vercel.app/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
                                 </li>                           
                              </div>
                         </div>
