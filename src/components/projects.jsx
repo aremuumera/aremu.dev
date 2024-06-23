@@ -169,10 +169,10 @@ const Projects = () => {
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
                                 <li>
-                                   <Link  to="https://subwallet.ng/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                   <Link  to="https://ecommerce-product-filter-two.vercel.app/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
                                 </li>
                                 <li>
-                                   <Link to="https://subwallet.ng/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                   <Link to="https://ecommerce-product-filter-two.vercel.app/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
                                 </li>                           
                              </div>
                         </div>
