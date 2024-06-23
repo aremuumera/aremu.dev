@@ -78,7 +78,7 @@ const About = () => {
                 <span>Tailwind CSS</span>
                 <span>CSS</span>
                 <span>Html</span>
-                <span>sass</span>
+                <span>Framer motion</span>
                 <span>Bootstrap</span>
                 <span>Material-UI</span>
                 <span>Git</span>

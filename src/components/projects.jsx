@@ -156,7 +156,7 @@ const Projects = () => {
                
                 <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
-                            <img src={Blog} alt="Subwallet image" />
+                            <img src={Blog} alt="Blog image" />
                         </div>
                         <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
                             <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Modern Blog</h1>
@@ -166,6 +166,7 @@ const Projects = () => {
                                 <span>TailwindCSS</span>
                                 <span>Node Js</span>
                                 <span>Express Js</span>
+                                <span>Json data</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
                                 <li>

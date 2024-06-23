@@ -98,7 +98,7 @@ const Header = () => {
                     </div>
                     <div className="min-[1024px]:hidden flex items-center justify-center  text-center pt-[40px] resumeHeader  fade-in-bottom-socialResume">
                         <div className="button rounded-[10px]  flex items-center justify-center "> 
-                            <Link to='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="flex gap">
+                            <Link to='https://drive.google.com/file/d/1uIOvwP7r8K8GzMh7FNAknc2ptXo7IUJC/view?usp=sharing' download className="flex gap">
                                 <span>Resume </span>
                                 <span><GoDownload className='inline' /> </span>
                             </Link>
@@ -106,7 +106,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="lg:block hidden fade-in-bottom-socialResume ">
-                    <Link  to='https://drive.google.com/file/d/1dZgFP9-3YaxJvFaPgYr2104ygsYEaNkU/view?usp=drivesdk' download className="button flex items-center gap-[10px] sm:text-[1rem]">
+                    <Link  to='https://drive.google.com/file/d/1uIOvwP7r8K8GzMh7FNAknc2ptXo7IUJC/view?usp=sharing' download className="button flex items-center gap-[10px] sm:text-[1rem]">
                         Resume <span> <GoDownload /> </span>
                     </Link>
                 </div>
