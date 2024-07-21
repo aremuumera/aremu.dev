@@ -6,7 +6,7 @@ import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {Blog, ProductFilter, Subwallet} from './images'
 import {Nike, Ade, Eccn, Medify, Finch} from './images';
-
+import Ecommerce from '../assets/hng.png'
 
 const Projects = () => {
 
@@ -205,6 +205,8 @@ const Projects = () => {
                         </div>
                     </div>
 
+                    
+
                 {/* ========================================= project two ================================================= */}
                
                 <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
@@ -263,6 +265,31 @@ const Projects = () => {
                         </div>
                     </div>
                 
+                {/* ========================================= project two ================================================= */}
+               
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Ecommerce} alt="Product image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Ecommerce website</h1>
+                            <p className="pt-[15px] text-textColor">This is an eCommerce platform that allows users to select categories to view products and proceed to the checkout page.</p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>Vanilla Js</span>
+                                <span>Json data</span>
+                                <span>Tailwind css</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="https://hng-stage2-alpha.vercel.app/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="https://hng-stage2-alpha.vercel.app/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
                 
                 {/* ================================================= project three ============================================ */}
                     <div  className="projectContainer flex items-center justify-end  lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="110" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >

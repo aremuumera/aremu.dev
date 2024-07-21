@@ -75,6 +75,7 @@ const About = () => {
                 <span>Javascript</span>
                 <span>Nodejs</span>
                 <span>Firebase</span>
+                <span>React Redux</span>
                 <span>Tailwind CSS</span>
                 <span>CSS</span>
                 <span>Html</span>
