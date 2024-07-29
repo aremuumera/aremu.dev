@@ -71,7 +71,7 @@ const About = () => {
             </div>
             <div className="tech-stack pt-[20px] flex flex-wrap gap-[10px] ">
                 <span>React JS</span>
-                {/* <span>Next.js</span> */}
+                <span>Next.js</span>
                 <span>Javascript</span>
                 <span>Nodejs</span>
                 <span>Firebase</span>
