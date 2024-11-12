@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 import {Blog, ProductFilter, Subwallet} from './images'
 import {Nike, Ade, Eccn, Medify, Finch} from './images';
 import Ecommerce from '../assets/hng.png'
+import Paymentpoint from '../assets/asset/paymentpoint.png'
+import Bpay from '../assets/bpay.png'
+import Lynue from '../assets/lyniue.png'
 
 const Projects = () => {
 
@@ -45,7 +48,9 @@ const Projects = () => {
                         </div>
                         <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
                             <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">A D E Developers website</h1>
-                            <p className="pt-[15px] text-textColor">This is a SaaS website meticulously designed to resolve business dilemmas through advanced technological solutions and also showcasing their products and services, which encompass website development, web applications, and app creation.</p>
+                            <p className="pt-[15px] text-textColor">
+                            This SaaS website was developed during my Frontend Internship at A.D.E Developers. It showcases the company's solutions for resolving business challenges through cutting-edge technology, highlighting their services in website development, web applications, and app creation.
+                            </p>
                             <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
                                 <span>React Js</span>
                                 <span>TailwindCSS</span>
@@ -104,6 +109,100 @@ const Projects = () => {
                 aremu.dev
                 </motion.div>
                 </div>
+
+                {/* ========================================= project two ================================================= */}
+               
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Paymentpoint} alt="Product image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Payment point (payment gateway)</h1>
+                            <p className="pt-[15px] text-textColor">
+                                This is a payment gateway i built alongside with a backend developer for a client to facilitate transactions for business owners. It enables business owners to accept payments online through various methods, including credit/debit cards, mobile wallets, and bank transfers.
+                            </p>
+                            <p className="text-xl pt-[10px]">P.O.V: Launching soon </p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>Material UI</span>
+                                <span>React-Redux</span>
+                                <span>TailwindCSS</span>
+                                <span>framer-motion</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
+
+                
+
+
+                     {/* ========================================= project four ================================================= */}
+               
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Lynue} alt="Product image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Lynue (Real Estate)</h1>
+                            <p className="pt-[15px] text-textColor">
+                               Lynue is a comprehensive real estate platform designed to simplify property transactions for both buyers and sellers. Users can list all types of properties—residential, commercial, and rental—allowing potential buyers or renters to easily explore and discover properties that match their needs.
+                            </p>
+                            {/* <p className="text-xl pt-[10px]">P.O.V: Launching soon currently in Beta testing</p> */}
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>Chakra UI</span>
+                                <span>React-Redux</span>
+                                <span>TailwindCSS</span>
+                                <span>Node js</span>
+                                <span>Mongo db</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="https://lynue-client-2eb3a7d46803.herokuapp.com" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
+
+                    {/* ========================================= project three ================================================= */}
+               
+                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Bpay} alt="Product image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Bpay (Fintech)</h1>
+                            <p className="pt-[15px] text-textColor">
+                                This is a payment gateway i built alongside with a backend developer for a client to facilitate transactions for business owners. It enables business owners to accept payments online through various methods, including credit/debit cards, mobile wallets, and bank transfers.
+                            </p>
+                            <p className="text-xl pt-[10px]">P.O.V: Launching soon currently in development phase</p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>Material UI</span>
+                                <span>React-Redux</span>
+                                <span>TailwindCSS</span>
+                                <span>framer-motion</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
 
                 {/* ========================================= project two ================================================= */}
                 <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >

@@ -73,6 +73,7 @@ const About = () => {
                 <span>React JS</span>
                 <span>Next.js</span>
                 <span>Javascript</span>
+                <span>Typescript</span>
                 <span>Nodejs</span>
                 <span>Firebase</span>
                 <span>React Redux</span>
@@ -85,7 +86,7 @@ const About = () => {
                 <span>Git</span>
                 <span>Github</span>
                 <span>Styled-Component</span>
-                <span>FIGMA</span>
+                <span>Currently learning Flutter</span>
             </div>
         </div>
     </div>

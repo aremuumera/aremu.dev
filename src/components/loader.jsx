@@ -14,7 +14,13 @@ const Loader = () => {
 
   return (
     <div className={`loader-container ${showLoader ? ' fade-in-fwd ' : 'slide-out-top'}`}>
-      <div className="loader-text tracking-in-expand-fwd">Welcome to my Website</div>
+<div className="px-[10px] loader-text tracking-in-expand-fwd flex items-center">
+  Hi
+  <span className="flex items-center ml-1 mr-2">
+    <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30" alt="wave" />,
+  </span>
+   Welcome to my Portfolio
+</div>
     </div>
   );
 };
