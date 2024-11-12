@@ -34,7 +34,7 @@ const About = () => {
             <div className="w-full lg:max-w-[900px] ">
                 <p className='sm:text-[1.2rem]'  data-aos="fade-right" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"         >
                     Hi, I'm Farouk Akinsanya, a dedicated Frontend Engineer driven by a passion for crafting engaging and dynamic online experiences.
-                    My development stack encompasses a diverse range of tools and frameworks, such as <span className='text-[#8c3fd8]'>React , Nodejs Javascript, Tailwindcss </span>ensuring versatility and adaptability in my projects <br/> Also, with a keen eye for design 
+                    My development stack encompasses a diverse range of tools and frameworks, such as <span className='text-[#8c3fd8]'>React , Nodejs, Javascript, Typescript, Tailwindcss </span>ensuring versatility and adaptability in my projects <br/> Also, with a keen eye for design 
                     and a focus on user experience I bring together the power of these technologies to build scalable, interactive user interfaces, responsive, and visually appealing websites and  web applications. <br/><br/>
                     
                     I am always driven by the spirit of continuous learning and growth and I thrive on tackling new challenges and pushing the boundaries of my skills. Whether it's mastering a new technology or delving into uncharted territory, I approach each endeavor with enthusiasm and determination.
