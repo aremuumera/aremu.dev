@@ -17,7 +17,7 @@ const Home = () => {
               </p>
             </div>
             <div className=" pt-[40px] flex justify-center gap-[5px] min-[360px]:gap-[30px]"> 
-                <Link to='https://drive.google.com/file/d/1TqsFmN0_zAvJPKnPcNVoyFzOZbYAAVUc/view?usp=sharing' download className="button HomeButton fade-in-bottom-d flex items-center gap-[10px]">
+                <Link to='https://drive.google.com/file/d/1Lc5n1gfP4XwmG_TPvQ7RrtDfbsMvl5bp/view?usp=drive_link' download className="button HomeButton fade-in-bottom-d flex items-center gap-[10px]">
                     Resume <span> <GoDownload /> </span>
                 </Link>
                 <LinkScroll to='contact' className="button HomeButton fade-in-bottom-d  bg-BgColor flex items-center gap-[4px] min-[360px]:gap-[10px]">

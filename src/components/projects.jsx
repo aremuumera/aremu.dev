@@ -40,6 +40,38 @@ const Projects = () => {
                
             
             <div   className=" lg:pt-[80px] sm:pb-[40px] ">
+
+            <div  className="projectContainer flex items-center pt-[60px] sm:pt-[60px] justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                        <div className="w-full max-w-[600px] ">
+                            <img src={Paymentpoint} alt="Product image" />
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Payment point (payment gateway)</h1>
+                            <p className="pt-[15px] text-textColor">
+                                This is a payment gateway i built alongside with a backend developer for a client to facilitate transactions for business owners. It enables business owners to accept payments online through various methods, including credit/debit cards, mobile wallets, and bank transfers.
+                            </p>
+                            {/* <p className="text-xl pt-[10px]">P.O.V: Launching soon </p> */}
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React Js</span>
+                                <span>Material UI</span>
+                                <span>React-Redux</span>
+                                <span>TailwindCSS</span>
+                                <span>framer-motion</span>
+                                <span>API's</span>
+
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                   <Link  to="https://paymentpoint.co/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                   <Link to="https://paymentpoint.co/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                </li>                           
+                             </div>
+                        </div>
+                    </div>
+
+
                      {/* =============================== project one ========================================================= */}
                     <div  className="projectContainer1 projectContainer pt-[60px] sm:pt-[60px]  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
                         <div className="w-full max-w-[600px]">
@@ -112,35 +144,7 @@ const Projects = () => {
 
                 {/* ========================================= project two ================================================= */}
                
-                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
-                        <div className="w-full max-w-[600px] ">
-                            <img src={Paymentpoint} alt="Product image" />
-                        </div>
-                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
-                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Payment point (payment gateway)</h1>
-                            <p className="pt-[15px] text-textColor">
-                                This is a payment gateway i built alongside with a backend developer for a client to facilitate transactions for business owners. It enables business owners to accept payments online through various methods, including credit/debit cards, mobile wallets, and bank transfers.
-                            </p>
-                            {/* <p className="text-xl pt-[10px]">P.O.V: Launching soon </p> */}
-                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
-                                <span>React Js</span>
-                                <span>Material UI</span>
-                                <span>React-Redux</span>
-                                <span>TailwindCSS</span>
-                                <span>framer-motion</span>
-                                <span>API's</span>
-
-                            </div>
-                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
-                                <li>
-                                   <Link  to="https://paymentpoint.co/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
-                                </li>
-                                <li>
-                                   <Link to="https://paymentpoint.co/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
-                                </li>                           
-                             </div>
-                        </div>
-                    </div>
+              
 
                 
 
@@ -178,7 +182,7 @@ const Projects = () => {
 
                     {/* ========================================= project three ================================================= */}
                
-                <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
+                {/* <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
                         <div className="w-full max-w-[600px] ">
                             <img src={Bpay} alt="Product image" />
                         </div>
@@ -204,7 +208,7 @@ const Projects = () => {
                                 </li>                           
                              </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 {/* ========================================= project two ================================================= */}
                 <div  className="projectContainer flex items-center justify-end lg:mb-[250px]  xl:mb-[200px]"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="80" data-aos-easing="ease-in-out " data-aos-offset="320"  data-aos-once="false"      >
