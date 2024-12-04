@@ -174,7 +174,7 @@ const Projects = () => {
                                    <Link  to="/" target='_blank' ><FaGithub   className='text-[1.5rem]' /> </Link>
                                 </li>
                                 <li>
-                                   <Link to="https://lynue-client-2eb3a7d46803.herokuapp.com" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
+                                   <Link to="https://lynue.com/" target='_blank' ><FaLink  className='text-[1.5rem]' /> </Link>
                                 </li>                           
                              </div>
                         </div>
