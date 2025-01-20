@@ -114,7 +114,7 @@ const Projects = () => {
                             <p className="pt-[15px] text-textColor">
                             Minmeg is a dynamic B2B marketplace designed to streamline collaboration within the mining ecosystem. <br/> It connects buyers and suppliers, enabling seamless requests for quotations, mineral supply transactions, and product showcases. With a secure escrow system ensuring transparency, integrated logistics handling, and real-time tracking, Minmeg empowers efficient and trustworthy transactions. <br/> I am building it on a modular monolithic architecture, which is  strategically designed to scale towards a microservices approach as the platform grows.
                             </p>
-                            {/* <p className="text-xl pt-[10px]">P.O.V: Launching soon currently in Beta testing</p> */}
+                             <p className="text-xl pt-[10px]">P.O.V: Launching soon currently in Beta testing</p> 
                             <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
                                 <span>React Js</span>
                                 <span>Material UI</span>
@@ -123,7 +123,7 @@ const Projects = () => {
                                 <span>Node js</span>
                                 <span>Sequelize</span>
                                 <span>Jest</span>
-                                <span>Sql</span>
+                                <span>Mysql</span>
                             </div>
                             <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
                                 <li>
@@ -135,6 +135,36 @@ const Projects = () => {
                              </div>
                         </div>
                     </div>
+
+                    <div  className="projectContainer1 projectContainer pt-[60px] sm:pt-[60px]  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >
+                        <div className="w-full max-w-[600px]">
+                            {/* <img src='https://res.cloudinary.com/dvkv4p72u/image/upload/v1715747895/ade_b6gccq.png' alt="portfolio image" className="w-[600px]"/> */}
+                            <img src={'./rivia.png'} alt="portfolio image" className="w-[600px]"/>
+                        </div>
+                        <div className=" projectCont max-w-[600px] w-full h-full py-[30px] -mb-[180px] -ml-[60px] ">
+                            <h1 className="text-HeaderTextColor  text-[2rem] font-[600] leading-[30px] ">Rivia Agency</h1>
+                            <p className="pt-[15px] text-textColor">
+                                I developed a custom website for Rivia, a business specializing in transforming ideas into innovative digital solutions. The website effectively communicates their mission to elevate online presence and drive business growth.   
+                            </p>
+                            <div className="projectStack py-[15px] flex gap-[10px]  flex-wrap">
+                                <span>React</span>
+                                <span>Typescript</span>
+                                <span>TailwindCSS</span>
+                                <span>API</span>
+                            </div>
+                            <div className="flex  projectContLink  items-center pt-[10px] gap-[15px]">
+                                <li>
+                                    <Link to="https://rivia-sigma.vercel.app/" target='_blank'><FaGithub   className='text-[1.5rem]' /> </Link>
+                                </li>
+                                <li>
+                                    <Link to="https://rivia-sigma.vercel.app/" target='_blank'><FaLink   className='text-[1.5rem]' /> </Link>
+                                </li>                         
+                            </div>
+                        </div>
+                    </div>
+
+
+
 
                      {/* =============================== project one ========================================================= */}
                     <div  className="projectContainer1 projectContainer pt-[60px] sm:pt-[60px]  flex items-center justify-end lg:mb-[250px]  xl:mb-[200px] w-full" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-easing="ease-in-out " data-aos-offset="200"  data-aos-once="false"                          >

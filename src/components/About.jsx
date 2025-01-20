@@ -82,10 +82,12 @@ const About = () => {
                 <span>Html</span>
                 <span>Framer motion</span>
                 <span>Bootstrap</span>
+                <span>Chakra-UI</span>
                 <span>Material-UI</span>
                 <span>Git</span>
                 <span>Github</span>
                 <span>Styled-Component</span>
+                <span>Mysql</span>
                 <span>Currently learning Flutter</span>
             </div>
         </div>
